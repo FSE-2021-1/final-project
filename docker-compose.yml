@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+
+    central-server:
+        build:
+            context: ./central-server
+            dockerfile: Dockerfile
+        image: centra-server
+        ports:
+            - 5000:5000
+        volumes:
+            - './central-server:/app'
+            - '/app/node_modules'
+
+    frontend:
+        build:
+            context: ./frontend
+            dockerfile: Dockerfile
+        image: frontend
+        ports:
+            - 3000:3000
+        volumes:
+            - './frontend:/app'
+            - '/app/node_modules'
+        stdin_open: true
+        tty: true

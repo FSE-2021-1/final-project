@@ -1,0 +1,6 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/FSE-2021-1/frontend
+[submodule "central-server"]
+	path = central-server
+	url = https://github.com/FSE-2021-1/central-server
