@@ -4,3 +4,6 @@
 [submodule "central-server"]
 	path = central-server
 	url = https://github.com/FSE-2021-1/central-server
+[submodule "esp32"]
+	path = esp32
+	url = https://github.com/FSE-2021-1/esp32

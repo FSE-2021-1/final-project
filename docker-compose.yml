@@ -8,7 +8,7 @@ services:
             dockerfile: Dockerfile
         image: centra-server
         ports:
-            - 5000:5000
+            - 5005:5005
         volumes:
             - './central-server:/app'
             - '/app/node_modules'
