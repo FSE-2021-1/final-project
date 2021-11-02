@@ -24,4 +24,14 @@ services:
             - './frontend:/app'
             - '/app/node_modules'
         stdin_open: true
-        tty: true
+        # tty: true
+
+    broker-mosquitto:
+      image: eclipse-mosquitto:1.6
+      ports:
+        - 1883:1883
+        - 9001:9001
+      volumes:
+        - ./mosquitto.conf:/mosquitto/config/mosquitto.conf
+        - /mosquitto/data
+        - /mosquitto/log
