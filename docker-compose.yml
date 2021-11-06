@@ -12,6 +12,8 @@ services:
         volumes:
             - './central-server:/app'
             - '/app/node_modules'
+        environment:
+            - MATRICULA=180054848
 
     frontend:
         build:
