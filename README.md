@@ -15,6 +15,8 @@
 
 ![solucao](./assets/solucao.png)
 
+Utilizamos ESP IDF nativo ESP-IDF v4.4-dev-3401-gb86fe0c66c
+
 ## Repositórios
 
 Este repositório contém os submodulos do Servidor Central, Frontend e ESP32, com um docker-compose para subir os serviços, apenas o código da ESP32 irá subir separadamente.
