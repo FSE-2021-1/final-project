@@ -86,6 +86,8 @@ idf.py -p <PORTA_ESP32> flash monitor
 
 ![logs](./assets/logs.png)
 
+CSV de exemplo: ./log_1636329877724.csv
+
 ## Demonstração
 
 Cadastro
@@ -99,3 +101,5 @@ LED PWM
 Botão e Alarme
 
 ![botao](./assets/botao.gif)
+
+Ao apertar o botão o alarme é acionado (alarme.mp3 dentro de /frontend/src), ou é possível acionar ele manualmente
