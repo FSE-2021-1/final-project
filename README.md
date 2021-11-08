@@ -103,3 +103,5 @@ Botão e Alarme
 ![botao](./assets/botao.gif)
 
 Ao apertar o botão o alarme é acionado (alarme.mp3 dentro de /frontend/src), ou é possível acionar ele manualmente
+
+E o vídeo está presente em ./assets/Trabalho-Final.mp4
