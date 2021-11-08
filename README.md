@@ -90,7 +90,7 @@ CSV de exemplo: ./log_1636329877724.csv
 
 ## Demonstração
 
-Cadastro
+Cadastro (Também é possível fazer o desregistro no botão de ejetar)
 
 ![cadastro](./assets/cadastro.gif)
 
