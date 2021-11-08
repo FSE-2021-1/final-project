@@ -6,7 +6,7 @@ services:
         build:
             context: ./central-server
             dockerfile: Dockerfile
-        image: centra-server
+        image: central-server
         ports:
             - 5005:5005
         volumes:
